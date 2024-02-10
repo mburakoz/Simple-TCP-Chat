@@ -1,0 +1,42 @@
+# Simple Chat Server and Client
+
+This repository contains Python code for a simple chat server and client implementation using sockets and threading.
+
+## Features
+
+- **Server (`server.py`):** Sets up a server that listens for incoming connections from clients. It handles multiple client connections simultaneously using threading.
+- **Client (`client.py`):** Connects to the chat server and allows users to send and receive messages in the chat room.
+
+## Usage
+
+### Running the Server
+
+1. Ensure you have Python 3.x installed on your system.
+2. Open a terminal and navigate to the directory containing `server.py`.
+3. Run the following command:
+
+    ```bash
+    python server.py
+    ```
+
+### Running the Client
+
+1. Ensure you have Python 3.x installed on your system.
+2. Open a terminal and navigate to the directory containing `client.py`.
+3. Run the following command:
+
+    ```bash
+    python client.py
+    ```
+
+4. Follow the prompts to enter your desired nickname and start chatting.
+
+## Dependencies
+
+- Python 3.x
+
+No additional libraries are required.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
